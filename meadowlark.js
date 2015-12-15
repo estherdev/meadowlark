@@ -96,3 +96,9 @@ function getWeatherData(){
         ],
     };
 }
+
+app.use(function(req, res, next){
+        if(!res.locals.partials) res.locals.partials ={};
+        res.locals,partials.weather = getWeatherData();
+        next();
+});
