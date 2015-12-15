@@ -9,8 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.14.1",
     "express": "~4.4.2",
-    "express3-handlebars": "^0.5.2"
+    "express3-handlebars": "^0.5.2",
+    "formidable": "~1.0.14",
+    "jquery-file-upload-middleware": "^0.1.7"
   },
   "devDependencies": {
     "chai": "^1.9.1",
